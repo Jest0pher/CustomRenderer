@@ -1,0 +1,2 @@
+C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\TestPixelShader.cso
+C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\TestVertexShader.cso

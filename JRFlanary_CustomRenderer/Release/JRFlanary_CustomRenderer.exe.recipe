@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Release\JRFlanary_CustomRenderer.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Release\TestPixelShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Release\TestVertexShader.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

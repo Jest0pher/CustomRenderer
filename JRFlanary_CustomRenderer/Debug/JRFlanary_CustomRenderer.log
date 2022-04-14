@@ -1,0 +1,9 @@
+﻿  compilation header save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\TestPixelShader.csh
+  compilation object save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\TestPixelShader.cso
+  JRFlanary_CustomRenderer.cpp
+  TestCube.cpp
+  TestMesh.cpp
+  TestPyramid.cpp
+  TestTriangularPrism.cpp
+  Generating Code...
+  JRFlanary_CustomRenderer.vcxproj -> C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\JRFlanary_CustomRenderer.exe

@@ -1,0 +1,19 @@
+﻿  compilation header save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\TestPixelShader.csh
+  compilation object save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Release\TestPixelShader.cso
+  compilation header save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\TestVertexShader.csh
+  compilation object save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Release\TestVertexShader.cso
+  GlobalRendererComponents.cpp
+  JRFlanary_CustomRenderer.cpp
+  Renderer.cpp
+C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\Renderer.cpp(30,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\Renderer.cpp(77,34): warning C4244: '=': conversion from 'UINT' to 'FLOAT', possible loss of data
+C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\Renderer.cpp(78,35): warning C4244: '=': conversion from 'UINT' to 'FLOAT', possible loss of data
+  TestCube.cpp
+  TestMesh.cpp
+  TestPyramid.cpp
+  TestTriangularPrism.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 229 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  JRFlanary_CustomRenderer.vcxproj -> C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Release\JRFlanary_CustomRenderer.exe
