@@ -13,6 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\TestVert">
+      <UniqueIdentifier>{84241659-ae35-4a38-9765-1e3889d513b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestVert">
+      <UniqueIdentifier>{b05de92b-1efc-49ab-a978-ae2ac3fdfe5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b998d491-3d5e-4b13-bc04-571c563b7cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\TestVert">
+      <UniqueIdentifier>{5b4a452f-0210-4c3c-ab52-e3941c684b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\NormUV">
+      <UniqueIdentifier>{8b9b9286-fec7-4390-9d51-72cd02a0d966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NormUVVert">
+      <UniqueIdentifier>{6ceed6d5-f7cf-4028-b7fe-5deb07e07718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NormUVVert">
+      <UniqueIdentifier>{2248a1aa-6cc6-4510-855d-8ddb6fed5861}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -33,29 +54,41 @@
     <ClInclude Include="RenderableObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TestVertParent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="WVP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GlobalRendererComponents.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TestCube.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TestMesh.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TestPyramid.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ObjectIncludes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TestVertParent.h">
+      <Filter>Header Files\TestVert</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCube.h">
+      <Filter>Header Files\TestVert</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMesh.h">
+      <Filter>Header Files\TestVert</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPyramid.h">
+      <Filter>Header Files\TestVert</Filter>
+    </ClInclude>
     <ClInclude Include="TestTriangularPrism.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\TestVert</Filter>
+    </ClInclude>
+    <ClInclude Include="NormUVMesh.h">
+      <Filter>Header Files\NormUVVert</Filter>
+    </ClInclude>
+    <ClInclude Include="Norm_UV_VertParent.h">
+      <Filter>Header Files\NormUVVert</Filter>
+    </ClInclude>
+    <ClInclude Include="NormUVCube.h">
+      <Filter>Header Files\NormUVVert</Filter>
+    </ClInclude>
+    <ClInclude Include="NormUVOBJLoad.h">
+      <Filter>Header Files\NormUVVert</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -68,17 +101,26 @@
     <ClCompile Include="GlobalRendererComponents.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestCube.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TestMesh.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="TestTriangularPrism.cpp">
+      <Filter>Source Files\TestVert</Filter>
     </ClCompile>
     <ClCompile Include="TestPyramid.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\TestVert</Filter>
     </ClCompile>
-    <ClCompile Include="TestTriangularPrism.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="TestMesh.cpp">
+      <Filter>Source Files\TestVert</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCube.cpp">
+      <Filter>Source Files\TestVert</Filter>
+    </ClCompile>
+    <ClCompile Include="NormUVMesh.cpp">
+      <Filter>Source Files\NormUVVert</Filter>
+    </ClCompile>
+    <ClCompile Include="NormUVCube.cpp">
+      <Filter>Source Files\NormUVVert</Filter>
+    </ClCompile>
+    <ClCompile Include="NormUVOBJLoad.cpp">
+      <Filter>Source Files\NormUVVert</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -95,7 +137,20 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="TestVertexShader.hlsl" />
-    <FxCompile Include="TestPixelShader.hlsl" />
+    <FxCompile Include="TestPixelShader.hlsl">
+      <Filter>Shaders\TestVert</Filter>
+    </FxCompile>
+    <FxCompile Include="TestVertexShader.hlsl">
+      <Filter>Shaders\TestVert</Filter>
+    </FxCompile>
+    <FxCompile Include="NormUVVertexShader.hlsl">
+      <Filter>Shaders\NormUV</Filter>
+    </FxCompile>
+    <FxCompile Include="NormUVPixelShader.hlsl">
+      <Filter>Shaders\NormUV</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Old Fence.txt" />
   </ItemGroup>
 </Project>

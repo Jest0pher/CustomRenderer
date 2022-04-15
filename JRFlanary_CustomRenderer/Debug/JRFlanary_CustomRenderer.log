@@ -1,9 +1,12 @@
-﻿  compilation header save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\TestPixelShader.csh
-  compilation object save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\TestPixelShader.cso
+﻿  compilation header save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\NormUVPixelShader.csh
+  compilation object save succeeded; see C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\NormUVPixelShader.cso
   JRFlanary_CustomRenderer.cpp
-  TestCube.cpp
-  TestMesh.cpp
-  TestPyramid.cpp
-  TestTriangularPrism.cpp
+  NormUVCube.cpp
+  NormUVMesh.cpp
+  NormUVOBJLoad.cpp
+C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\NormUVOBJLoad.cpp(52,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\NormUVOBJLoad.cpp(77,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\NormUVOBJLoad.cpp(102,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\JRFlanary_CustomRenderer\NormUVOBJLoad.cpp(127,23): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
   JRFlanary_CustomRenderer.vcxproj -> C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\JRFlanary_CustomRenderer.exe

@@ -7,6 +7,12 @@
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
+      <FullPath>C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\NormUVPixelShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\NormUVVertexShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
       <FullPath>C:\Users\jrtf0\Desktop\CustomRenderer\JRFlanary_CustomRenderer\Debug\TestPixelShader.cso</FullPath>
     </ContentFile>
     <ContentFile>

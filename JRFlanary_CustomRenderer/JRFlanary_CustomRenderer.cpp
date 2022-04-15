@@ -14,9 +14,10 @@ HINSTANCE hInst;                                // current instance
 WCHAR szTitle[MAX_LOADSTRING];                  // The title bar text
 WCHAR szWindowClass[MAX_LOADSTRING];            // the main window class name
 Renderer renderer;
-TestCube testMesh;
+NormUVCube testMesh;
 TestPyramid testMesh2(1, 0, 0);
-TestTriangularPrism testMesh3(-1, 0, 0);
+TestTriangularPrism testMesh3(-1, -.25f, 0);
+NormUVOBJLoad testMesh4(-1, .25f, 0);
 
 // Forward declarations of functions included in this code module:
 ATOM                MyRegisterClass(HINSTANCE hInstance);
@@ -123,9 +124,11 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    testMesh.Init();
    testMesh2.Init();
    testMesh3.Init();
+   testMesh4.Init();
    renderer.objects.push_back(&testMesh);
    renderer.objects.push_back(&testMesh2);
    renderer.objects.push_back(&testMesh3);
+   renderer.objects.push_back(&testMesh4);
    return TRUE;
 }
 
